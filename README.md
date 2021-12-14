@@ -1,2 +1,7 @@
-# youtube-regression-project
-A Study of the Effect of YouTube Tech Channels to the Revenue of Newly Released Devices
+# YouTube Regression Project
+
+YouTube is a platform for publishing video content. The content on YouTube varies from family channels to Technology channels. Tech channels are one of the biggest channels on the platform. Those said channels make contracts with big companies like Apple and Samsung to review their devices before the official release day. So, companies can analyze people’s impressions about their products based on the number of views, likes, and dislikes. And advertise their new technologies. Therefore, predict the number of people who want to buy the said product. Also, by predicting the number of views for a new product from a new brand, we will help the companies decide if sponsoring or giving away some of their product to the channel's owners to review is a good strategy to increase the revenue or not.
+
+This can be achived by scraping YouTube for the number of subscribers of a certain tech channel, number of views for each video, the brand, and the device in the video, likes and dislikes, length of the video. We scraped other websites to get brands, names, and revenues of devices. 
+
+We utilized some tools to help us find and gather the wanted result like BeautifulSoup and youtube API for web scraping, Numpy and Pandas for data manipulation and cleaning, Matplotlib and Seaborn for plotting, and Statsmodels and scikit-learn for linear regression model. Nevertheless, additional tools and libraries are used to explore the dataset.
